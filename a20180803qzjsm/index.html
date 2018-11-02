@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="gbk" />
+    <meta name="robots" content="all">
+    <meta name="author" content="Tencent-CP">
+    <meta name="Copyright" content="Tencent">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,maximum-scale=1"/>
+    <meta name="Description" content="40万名额限量抢码，抢注有礼赢战场先机！" />
+    <meta name="Keywords" content="红警 红色警戒 RTS 战争策略 SLG 尤里 腾讯游戏 基诺夫 谭亚 竖版 COK  redalert 尤里复仇 共和国之辉" />
+    <title>抢注角色，快人一步 - 红警OL手游</title>
+    <!-- 页面设计：微聚cp | 页面制作：微聚cp | 创建：2018-08-03 -->
+    <script>
+        (function (win,doc){
+            if (!win.addEventListener) return;
+            var html=document.documentElement;
+            function setFont()
+            {
+                var cliWidth=html.clientWidth;
+                html.style.fontSize=100*(cliWidth/750)+'px';
+            }
+            win.addEventListener('resize',setFont,false);
+            setFont();
+        })(window,document);
+    </script>
+    <style>
+        /* reset */
+        body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,
+        details,figcaption,figure,footer,header,hgroup,menu,nav,section{margin:0;padding:0}
+        article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display:block; }
+        table{border-collapse:collapse;border-spacing:0}
+        audio,canvas,video { display: inline-block;*display: inline;*zoom: 1;}
+        fieldset,img{border:0}
+        address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}
+        ol,ul{list-style:none}
+        a{text-decoration: none;outline: none;-webkit-tap-highlight-color:transparent;}
+        caption,th{text-align:left}
+        h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+        q:before,q:after{content:''}
+        abbr,acronym{border:0;font-variant:normal}
+        sup{vertical-align:text-top}
+        sub{vertical-align:text-bottom}
+        .fl{float: left;}
+        .fr{float: right;}
+        .clear{zoom: 1;}
+        .clear:after{content: '';display: block;height: 0;clear: both;}
+        input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}
+        input,textarea,select{*font-size:100%}
+        /* main */
+        html {font-size: 100px;}
+        body {font: .22rem '\5FAE\8F6F\96C5\9ED1';}
+        .hide{display: none;}
+        /* head */
+        header {width: 100%;height: 1.2rem;background-color: #1b1a1f;position: fixed; left: 0;top: 0;z-index: 10; transition: all 0.3s;}
+        header h1 {float: left;color: white;position: relative;padding-left: 1.02rem;margin: .21rem 0 0 .4rem}
+        header h1 a{position: absolute;left: 0;top: 0;display: block;width: .8rem;height: .8rem;}
+        header h1 img {width: .8rem;height: .8rem}
+        header strong {display: block;font-size: .28rem;line-height: 1.7;}
+        header i {font-style: normal;font-size: .22rem}
+        header .head-download {float: right;display: block;width: 1.34rem;height: .48rem;line-height: .48rem;margin: .4rem .36rem 0 0;font-weight: bold;color: #393939;text-align: center;background: #e4d2a2;font-size: .26rem;border-radius: .08rem;}
+        .spr{background: url(//game.gtimg.cn/images/hongjing/cp/a20180803qzjsm/spr.png) no-repeat;background-size:9.81rem 6.05rem;}
+        .sprs{background: url(//game.gtimg.cn/images/hongjing/cp/a20180502yym/spr.png) no-repeat 0rem 0rem/13.66rem 7.68rem}
+        /*kv*/
+        .kv{width:100%;height:9.82rem;background: url(//game.gtimg.cn/images/hongjing/cp/a20180803qzjsm/kv.jpg) no-repeat center/cover;overflow: hidden;position: relative;}
+        .kv h1{text-indent: -9999rem;}
+        .kv .fl{text-align: center;width: 2.92rem;vertical-align: top;margin-left: .2rem;}
+        .kv .fl a{display: inline-block;text-indent: -9999rem;}
+        .kv .fl a.logo{width:1.74rem;height:.72rem;background: url(//game.gtimg.cn/images/hongjing/cp/a20180803qzjsm/logo.png) no-repeat center/cover;}
+        .kv .fl a.ea{width:.97rem;height:.46rem;background: url(//game.gtimg.cn/images/hongjing/cp/a20180803qzjsm/ea.png) no-repeat center/cover;position: relative;top: .1rem;left: .1rem;}
+        .kv p.fr{font-size:.22rem;color:#fff;margin-top: .15rem;padding-right: .2rem;}
+        .kv p.fr a{color: #ff0000;}
+        .flame li{position:absolute;left: -1rem;bottom: 1rem;-webkit-animation: burning1 2.3s linear infinite;animation: burning1 2.3s linear infinite;}
+        .flame-1 li{position:absolute;right: -1rem;bottom: 2.8rem;-webkit-animation: burning2 3s linear infinite;animation: burning2 3s linear infinite;}
+        .flame li:nth-child(2){
+            bottom: 1.5rem;
+            -webkit-animation-delay: .5s;
+            animation-delay: .5s;
+            -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+        }
+        .flame li:nth-child(3){
+            left: 0rem;
+            bottom: 1.8rem;
+            -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+            -webkit-animation-duration: 2.2s;
+            animation-duration: 2.2s;
+        }
+        .flame li:nth-child(4){
+            left: 0rem;
+            bottom: 2.5rem;
+            -webkit-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+            -webkit-animation-duration: 2.5s;
+            animation-duration: 2.5s;
+        }
+        .flame li:nth-child(5){
+            bottom: 2.5rem;
+            -webkit-animation-delay: 3s;
+            animation-delay: 3s;
+        }
+        .flame-1 li:nth-child(2){
+             bottom: 2.5rem;
+             -webkit-animation-delay: .5s;
+             animation-delay: .5s;
+             -webkit-animation-duration: 3.3s;
+             animation-duration: 3.3s;
+         }
+        .flame-1 li:nth-child(3){
+            bottom: 2.5rem;
+            -webkit-animation-delay: .55s;
+            animation-delay: .55s;
+            -webkit-animation-duration: 3.8s;
+            animation-duration: 3.8s;
+        }
+        @-webkit-keyframes burning1 {
+            0%   { -webkit-transform: rotate(0deg) translate3d(0rem,0rem,0); transform: rotate(0deg) translate3d(0rem,0rem,0); }
+            30%  { -webkit-transform: rotate(5deg) translate3d(1.5rem,-1.5rem,0); transform: rotate(5deg) translate3d(1.5rem,-1.5rem,0); }
+            60%  { -webkit-transform: rotate(0deg) translate3d(3rem,-3rem,0); transform: rotate(0deg) translate3d(3rem,-3rem,0);opacity: 1}
+            100% { -webkit-transform: rotate(-20deg) translate3d(5rem,-5rem,0); transform: rotate(-20deg) translate3d(5rem,-5rem,0);opacity: 0}
+        }
+        @-webkit-keyframes burning2 {
+            0%   { -webkit-transform: rotate(0deg) translate3d(0rem,0rem,0); transform: rotate(0deg) translate3d(0rem,0rem,0); }
+            30%  { -webkit-transform: rotate(-5deg) translate3d(-1.5rem,-1.5rem,0); transform: rotate(-5deg) translate3d(-1.5rem,-1.5rem,0); }
+            60%  { -webkit-transform: rotate(0deg) translate3d(-3rem,-3rem,0); transform: rotate(0deg) translate3d(-3rem,-3rem,0);opacity: 1}
+            100% { -webkit-transform: rotate(20deg) translate3d(-5rem,-5rem,0); transform: rotate(20deg) translate3d(-5rem,-5rem,0);opacity: 0}
+        }
+        /*content*/
+        .content{width: 100%;height:33.2rem;background: url(//game.gtimg.cn/images/hongjing/cp/a20180803qzjsm/content.jpg) no-repeat center/cover;overflow: hidden;}
+        .content h3.t-1{width:5.85rem;height:.58rem;background-position:-.1rem -.1rem;margin: .1rem auto 0;text-indent: -9999rem;}
+        /*part-1*/
+        .part-1{width:6.8rem;height:4.08rem;background: url(//game.gtimg.cn/images/hongjing/cp/a20180803qzjsm/part-1.png) no-repeat center/cover;margin: .15rem auto 0;overflow: hidden;}
+        .qz-wrap{margin:.6rem auto 0;box-sizing: border-box;padding: 0 .65rem;}
+        input[type=radio]{opacity: 0;}
+        .qz-wrap .form-row{text-align: center;}
+        .qz-wrap .form-row label{text-indent: -9999rem;cursor: pointer;display: inline-block;}
+        .qz-wrap .form-row .radio-txt1{width:.81rem;height:.26rem;background-position:-6.15rem -2.46rem;margin-right: 1rem;}
+        .qz-wrap .form-row .radio-txt2{width:.33rem;height:.26rem;background-position:-7.16rem -2.46rem;}
+        .qz-wrap .form-row .ui-radio{display: inline-block;width:.33rem;height:.28rem;background-position:-6.7rem -2.92rem;position: relative;top: .02rem;right: .1rem;margin-left: -.3rem;}
+        .ui-radio:before{display: block;content: "";width:.18rem;height:.16rem;background: url(//game.gtimg.cn/images/hongjing/cp/a20180803qzjsm/spr.png) no-repeat -7.69rem -2.46rem/9.81rem 6.05rem;    margin: .063rem auto;margin-left: .08rem;visibility:hidden;}
+        :checked+.ui-radio:before{visibility: visible;}
+        .qz-wrap select{width:5.5rem;height:.55rem;background: url(//game.gtimg.cn/images/hongjing/cp/a20180803qzjsm/seclect.png) no-repeat center/cover;-webkit-appearance: none;outline: none;border: none;font-size: .28rem;color: #835359;padding-left:1.7rem;margin-top: .25rem;}
+        .qz-wrap .text{width:5.52rem;height:.53rem;background: url(//game.gtimg.cn/images/hongjing/cp/a20180803qzjsm/input.png) no-repeat center/cover;font-size: .28rem;color: #835359; outline: none;border: none;padding-left:1.7rem;box-sizing: border-box;margin-top: .3rem;}
+        input::-webkit-input-placeholder{color: #835359;}
+        input::-moz-placeholder{color: #835359;}
+        input:-moz-placeholder {color: #835359;}
+        input:-ms-input-placeholder{color: #835359;}
+        .qz-wrap .ljqz{display: block;width:2.94rem;height:.99rem;background-position: -.1rem -.88rem;margin: .25rem auto 0;text-indent: -9999rem;}
+        /*part-2*/
+        .content h3.t-2{width:3.56rem;height:.58rem;background-position:-6.15rem -1.68rem;margin: 1.1rem auto 0;text-indent: -9999rem;}
+        .content p.mz{width:6.82rem;height:.62rem;background:url(//game.gtimg.cn/images/hongjing/cp/a20180803qzjsm/dis.png) no-repeat center/cover;margin: .2rem auto 0;text-align: center;line-height:.62rem;font-size:.24rem;color: #ceb9ba;}
+        .content .part-2{width:6.8rem;height:8.86rem;overflow: hidden;position: relative;background: url(//game.gtimg.cn/images/hongjing/cp/a20180803qzjsm/part-2.png) no-repeat center/cover;margin: .3rem auto 0;}
+        .part-2 .server{width: 98%;height: .82rem;margin:.15rem auto 0;}
+        .part-2 .server:before{position: absolute;content:'';width:2.36rem;height:.3rem;background: url(//game.gtimg.cn/images/hongjing/cp/a20180803qzjsm/angle.png) no-repeat center/cover;top: 0;left: 50%;transform: translateX(-50%);z-index: 2;}
+        .part-2 .server li{width:3.32rem;height:.82rem;text-indent: -9999rem;position: relative;z-index: 1;}
+        .part-2 .server li:nth-child(1){background-position:-.1rem -3.09rem;}
+        .part-2 .server li:nth-child(2){background-position:-.1rem -5.13rem;}
+        .part-2 .server li:nth-child(1).on{background-position:-.1rem -4.11rem;}
+        .part-2 .server li:nth-child(2).on{background-position:-.1rem -2.07rem;}
+        .server-wrap{width: 100%;height:7.8rem;overflow: hidden;box-sizing: border-box;padding: 0 .35rem;}
+        .skr{width:100%;height: 100%; box-sizing: border-box;overflow-y: auto;font-size: .24rem;color: #e4d9da;padding:.25rem 0 .5rem;display: none;}
+        .server-wrap ol.on{display: block;}
+        .skr li{margin-bottom: .22rem;}
+        .skr p{margin-bottom: .13rem;line-height: 1;}
+        .skr .progress{width: 100%;height:.43rem;background: url(//game.gtimg.cn/images/hongjing/cp/a20180803qzjsm/pro-bg.png) no-repeat center/cover;position: relative;}
+        .skr .progress .progress-bar{height:.41rem;background: #940e0c;line-height: .41rem;}
+        .progress span{position: absolute;width: 100%;height: 100%;text-align:left;line-height: .41rem;font-size:.2rem;color: #a0898a;left: 0;top: 0;box-sizing: border-box; padding-left: .2rem;}
+        /*part-3*/
+        .content h3.t-3{width:3.56rem;height:.59rem;background-position:-6.15rem -.89rem;margin: .7rem auto 0;text-indent: -9999rem;}
+        .content .part-3{width:6.79rem;height:5.82rem;overflow: hidden;background: url(//game.gtimg.cn/images/hongjing/cp/a20180803qzjsm/part-3.png) no-repeat center/cover;margin: .37rem auto 0;}
+        /*抽奖*/
+        .lottery{width:6.03rem;height:4.89rem;margin: .35rem auto 0;position: relative;}
+        .lottery img{width:6.03rem;height:4.89rem;}
+        .lottery p{position: absolute;font-size: .2rem;color: #d4d4d4;left: 2.27rem;top:2.55rem;}
+        .lottery p i{font-style: normal;color: #fedd1c;}
+        .lotterycontent_hover{background: url(//game.gtimg.cn/images/hongjing/cp/a20180803qzjsm/draw.png) no-repeat center/cover;}
+        .content .yqhy{display: block;width:2.52rem;height:.95rem;background-position:-3.24rem -.88rem;margin: .05rem auto 0;text-indent: -9999rem;}
+        .content p.yqq{text-align: center;font-size:.2rem;color:#c3c0be;line-height: 1;margin-top: .21rem;}
+        .content p.yqq em{color: #e81f1c;}
+        /*part-3*/
+        .content h3.t-4{width:3.56rem;height:.59rem;background-position: -6.15rem -.1rem;text-indent: -9999rem;margin: 1.1rem auto 0;}
+        .content .part-4{width:6.8rem;height:4.91rem;background: url(//game.gtimg.cn/images/hongjing/cp/a20180803qzjsm/part-4.png) no-repeat center/cover;margin: .33rem auto 0;box-sizing: border-box;padding: .51rem .39rem 0;}
+        .content .part-4 ol{font-size:.22rem;color: #e7d4d4;line-height: 2;}
+        .part-4 ol li span{display: inline-block;width:.35rem;height:.35rem;background-position: -6.15rem -2.92rem;text-align: center;line-height: .35rem;margin-right: .1rem;position: relative;top: .05rem;}
+        .part-4 ol li p{display: inline-block;width: 92%;}
+        /*qrcode*/
+        .qrcode{width: 100%;height:2.84rem;overflow: hidden;background:#0b0b10;}
+        .qrcode-box {margin:.47rem auto 0;font-size: 0;text-align: center;}
+        .qrcode a {display: inline-block;width: 1.46rem;color: #fff;margin:0 .19rem;text-align:center;font-size: 0.22rem;}
+        .qrcode span {display:inline-block;width: 1.46rem;height: 1.46rem;margin-bottom:.2rem;}
+        .qrcode-wx span {background-position: -.07rem -3.75rem;}
+        .qrcode-dj span {background-position: -1.56rem -3.75rem;}
+        .qrcode-bl span {background-position: -.07rem -5.25rem;}
+        .qrcode-yxq span {background-position: -1.56rem -5.25rem;}
+        /*弹窗*/
+        .none{display: none;}
+        .qrcode-pop img{width:3.23rem;height:3.23rem;position: absolute;top:50%;left:50%;margin: -1.61rem;z-index: 100;}
+        .qrcode-pop-fx img{width:5.7rem;height:4.91rem;position: absolute;top:50%;left: 50%;margin-left: -2.85rem;margin-top:-2.455rem;}
+        .fix-dimg,.qrcode-pop{position: fixed;width: 100%;height: 100%;top: 0;left: 0;background: rgba(0,0,0,.8);z-index: 99;display: none;}
+        .pop{font-size:.26rem;color: #a4c1e0;width:5.38rem;position: fixed;left: 0;top: 0;right: 0;bottom: 0;margin: auto;box-sizing: border-box;z-index: 100;display: none;}
+        .pop .close{display: block; width: 1rem;height: 1rem;position: absolute;top: 0;right: 0;text-indent: -9999rem;}
+        .po-1{width:5.38rem;height:3.27rem;background: url(//game.gtimg.cn/images/hongjing/cp/a20180803qzjsm/po-1.png) no-repeat center/cover;}
+        .po-1 .center{width: 100%;height:1.67rem;text-align: center;font-size:.2rem;margin-top: .4rem;}
+        .po-1 a.qq{display:inline-block; width:1.67rem;height:1.67rem;background-position:-3.54rem -1.9rem;line-height: 18;color: #34b7ee;margin: 0 .2rem;}
+        .po-1 a.wx{display:inline-block; width:1.67rem;height:1.67rem;background-position:-3.54rem -3.43rem;line-height: 18;color: #5ed750;margin: 0 .2rem;}
+        .po-1 p{text-align: center;font-size:.24rem;color: #fff;margin-top: .5rem;}
+        .po-2{width:5.38rem;height:3.31rem;background: url(//game.gtimg.cn/images/hongjing/cp/a20180803qzjsm/po-2.png) no-repeat center/cover;}
+        .po-2 h4,.po-3 h4,.po-4 h4,.po-5 h4,.po-6 h4,.po-7 h4{text-align: center;font-size:.28rem;color: #fff;line-height: 1;margin-top: .43rem;}
+        .po-2 p{width: 4.52rem;margin:.44rem auto 0;font-size: .22rem;color: #f9cacb;line-height: 1.6;}
+        .po-2 .ljyy{display: block;margin: .17rem auto 0;width:2.19rem;height:.66rem;background-position: -7.62rem -2.77rem;text-indent: -9999rem;}
+        .po-3{width:5.38rem;height:4.53rem;background: url(//game.gtimg.cn/images/hongjing/cp/a20180803qzjsm/po-3.png) no-repeat center/cover;}
+        .po-3 p{text-align: center;font-size:.22rem;color:#d19092;margin-top: .37rem;}
+        .po-3 p em{color: #ff5361;}
+        .po-3 .invite,.po-3 .phone{text-align: center;font-size: .24rem;color: #f9cacb;margin-top: .25rem;}
+        .po-3 .invite label,.po-3 .phone label{margin-right: .1rem;width:1.44rem;height:.26rem;display: inline-block;text-align: left;}
+        .po-3 .invite input,.po-3 .phone input{width:2.97rem;height:.54rem; outline: none;border: none;background:url(//game.gtimg.cn/images/hongjing/cp/a20180803qzjsm/input-1.png) no-repeat center/cover;padding-left: .21rem;box-sizing: border-box;color: #835359;}
+        .po-3 .liqz{display: block;width:2.19rem;height:.66rem;text-indent: -9999rem;background-position: -3.54rem -5.29rem;margin:.25rem auto 0;}
+        .po-4{width:5.38rem;height:4.53rem;background: url(//game.gtimg.cn/images/hongjing/cp/a20180803qzjsm/po-3.png) no-repeat center/cover;}
+        .po-4 h4{text-indent: .4em;}
+        .po-4 span{display: block;width:3.87rem;height:.53rem;font-size: .24rem;color: #f9cacb;box-sizing: border-box;text-align: left;line-height:.53rem;padding-left: 1rem;}
+        .po-4 span.dq{background: url(//game.gtimg.cn/images/hongjing/cp/a20180803qzjsm/tg-1.png) no-repeat center/cover;margin: .44rem auto 0;}
+        .po-4 span.mz{background: url(//game.gtimg.cn/images/hongjing/cp/a20180803qzjsm/tg-2.png) no-repeat center/cover;margin: .14rem auto 0;}
+        .po-4 p{width:4.3rem;margin: .28rem auto 0;font-size:.2rem;color:#dd2f34;}
+        .po-4 .center{text-align: center;margin-top: .22rem;}
+        .po-4 .center a{display: inline-block;width: 1.99rem;height: .66rem;text-indent: -9999rem;margin: 0 .2rem;}
+        .po-4 .center a.zxx{background-position:-5.21rem -4.09rem;}
+        .po-4 .center a.qr{background-position:-5.21rem -3.43rem;}
+        .po-5{width:5.38rem;height:4.53rem;background: url(//game.gtimg.cn/images/hongjing/cp/a20180803qzjsm/po-3.png) no-repeat center/cover;}
+        .po-5 h4{text-indent: .4em;}
+        .po-5 .jp{width:1.82rem;height:1.55rem;position: relative;background: url(//game.gtimg.cn/images/hongjing/cp/a20180803qzjsm/a-ward.png) no-repeat center/cover;margin:.44rem auto 0;overflow: hidden;}
+        .po-5 .jp img{display: block;width:1.22rem;height:.68rem;margin: .3rem auto 0;}
+        .po-5 .jp span{position: absolute;width: 100%;height: .43rem;left: 0;bottom: 0;text-align: center;line-height: .43rem;font-size:.22rem;color:#ceb9ba;}
+        .po-5 p{text-align: center;font-size:.2rem;color: #dd2f34;margin-top: .28rem;}
+        .po-5 a.ljqz{display: block;width: 1.99rem;height: .66rem;background-position:-5.21rem -3.43rem;text-indent: -9999rem;margin:.26rem auto 0;}
+        .po-6{width:5.38rem;height:4.53rem;background: url(//game.gtimg.cn/images/hongjing/cp/a20180803qzjsm/po-3.png) no-repeat center/cover;}
+        .po-6 .active{width:100%;height: 2.66rem;box-sizing: border-box;margin: .59rem auto 0;padding: 0 .4rem;overflow: hidden;font-size: .24rem;color: #f9cacb;}
+        .po-6 .active .gift{width: 100%;height: 100%;box-sizing:border-box;overflow-y: auto;margin: 0 auto;padding:0 .2rem;}
+        .po-6 .active .gift li{margin-bottom: .37rem;line-height: 1;}
+        .po-6 .active .gift p{font-size: .2rem;color: #b87d7f;}
+        .po-6 .active .gift p span{margin-right: .05rem;}
+        /*滚动条样式*/
+        .gift::-webkit-scrollbar {  width:.02rem;  }
+        .gift::-webkit-scrollbar-thumb{   background-color:#d62b39;}
+        .gift::-webkit-scrollbar-track-piece{   background:#8f4749; }
+        .po-7{width:5.38rem;height:3.31rem;background: url(//game.gtimg.cn/images/hongjing/cp/a20180803qzjsm/po-2.png) no-repeat center/cover;}
+        .po-7 h4{text-indent: .4em;}
+        .po-7 p{font-size: .22rem;color: #d19092;width:4.52rem;margin:.55rem auto 0;}
+        .po-7 a.yqzy{display: block;width:2.19rem;height:.66rem;background-position:-7.62rem -3.43rem;text-indent: -9999rem;margin:.45rem auto 0;}
+        /* footicon */
+        .footicon {height: 1rem;background-color:#000;margin-top: -.02rem;box-sizing: border-box;padding: .3rem .25rem 0;overflow: hidden;}
+        .footicon a {display: inline-block;text-indent: -9999rem;margin: 0 .28rem;}
+        .footicon-tx {width: 2.42rem;height: .43rem;background: url(//game.gtimg.cn/images/hongjing/m/m201803/footicon_tx.png) no-repeat center 0 /cover;}
+        .footicon-ea {width: .86rem;height: .41rem;background: url(//game.gtimg.cn/images/hongjing/m/m201803/footicon_ea.png) no-repeat center 0 /cover;}
+        .footicon-ya {width: 1.62rem;height: .52rem;background: url(//game.gtimg.cn/images/hongjing/m/m201803/footicon_ya.png) no-repeat center 0 /cover;}
+        /* footer */
+        .foot{font-size: 0.22rem;text-align: center;padding: 0.20rem 0;background: #000;color: #fff;}
+        .foot a{color: #fff;text-decoration: none;}
+
+    </style>
+</head>
+
+<body>
+<section class="kv">
+    <h1>抢注角色，快人一步</h1>
+    <div class="fl">
+        <a ontouchend="PTTSendClick('kv','logo','红警');" class="logo" href="//hongjing.qq.com/m/main.shtml">红警</a>
+        <a ontouchend="PTTSendClick('kv','logo','EA');" class="ea" href="javascript:;">EA</a>
+    </div>
+    <p class="fr">您好，请先<a ontouchend="PTTSendClick('kv','loging','登录');" href="javascript:showDia('.po-1');">【登录】</a></p>
+    <ul class="flame">
+        <li><img src="//game.gtimg.cn/images/hongjing/cp/a20180803qzjsm/flame.png"></li>
+        <li><img src="//game.gtimg.cn/images/hongjing/cp/a20180803qzjsm/flame.png"></li>
+        <li><img src="//game.gtimg.cn/images/hongjing/cp/a20180803qzjsm/flame.png"></li>
+        <li><img src="//game.gtimg.cn/images/hongjing/cp/a20180803qzjsm/flame.png"></li>
+        <li><img src="//game.gtimg.cn/images/hongjing/cp/a20180803qzjsm/flame.png"></li>
+    </ul>
+    <ul class="flame-1">
+        <li><img src="//game.gtimg.cn/images/hongjing/cp/a20180803qzjsm/flame.png"></li>
+        <li><img src="//game.gtimg.cn/images/hongjing/cp/a20180803qzjsm/flame.png"></li>
+        <li><img src="//game.gtimg.cn/images/hongjing/cp/a20180803qzjsm/flame.png"></li>
+    </ul>
+</section>
+<section class="content">
+    <h3 class="t-1 spr">抢注抽补给 战场赢先机</h3>
+    <div class="part-1">
+        <div class="qz-wrap">
+            <p class="form-row">
+                <input type="radio" id="radio1" name="radio" checked="checked">
+                <label for="radio1" class="ui-radio spr"></label>
+                <label for="radio1" class="radio-txt1 spr">安卓</label>
+                <input type="radio" id="radio2" name="radio">
+                <label for="radio2" class="ui-radio spr"></label>
+                <label for="radio2" class="radio-txt2 spr">iOS</label>
+            </p>
+            <select>
+                <option value="请选择大区">请选择大区</option>
+                <option value="请选择大区">微信1区-钢甲洪流</option>
+                <option value="请选择大区">微信2区-战火重燃</option>
+                <option value="请选择大区">微信3区-战争风云</option>
+                <option value="请选择大区">微信4区-英雄归来</option>
+                <option value="请选择大区">微信5区-风暴行动</option>
+                <option value="请选择大区">微信6区-火线指令</option>
+                <option value="请选择大区">微信7区-钢铁雄狮</option>
+                <option value="请选择大区">微信8区-硝烟初起</option>
+                <option value="请选择大区">微信9区-战火前线</option>
+                <option value="请选择大区">微信10区-末日风暴</option>
+                <option value="请选择大区">手Q1区-冰天雪地</option>
+                <option value="请选择大区">手Q2区-闪电风暴</option>
+                <option value="请选择大区">手Q3区-纵横驰骋</option>
+                <option value="请选择大区">手Q4区-风驰电掣</option>
+                <option value="请选择大区">手Q5区-枪林弹雨</option>
+                <option value="请选择大区">手Q6区-钢铁咆哮</option>
+                <option value="请选择大区">手Q7区-战争使命</option>
+                <option value="请选择大区">手Q8区-决胜千里</option>
+                <option value="请选择大区">手Q9区-黎明曙光</option>
+                <option value="请选择大区">手Q10区-风暴行动</option>
+            </select>
+            <input type="text" class="text" placeholder="为你的角色取个名吧">
+            <a ontouchend="PTTSendClick('part-1','ljqz','立即抢注');" class="ljqz spr" href="javascript:showDia('.po-3');">立即抢注</a>
+        </div>
+    </div>
+    <h3 class="t-2 spr">各区战况</h3>
+    <p class="mz">指挥官 <em>245XXXX67</em> 在【QQ 1服 区服名字】成功抢先注册！</p>
+    <div class="part-2">
+        <ul class="server">
+            <li class="fl spr on">微信区</li>
+            <li class="fl spr">手Q区</li>
+        </ul>
+        <div class="server-wrap">
+            <ol class="skr on">
+                <li>
+                    <p>微信1区-钢甲洪流</p>
+                    <div class="progress"><div class="progress-bar" style="width: 50%;"></div><span>已抢50%</span></div>
+                </li>
+                <li>
+                    <p>微信2区-战火重燃</p>
+                    <div class="progress"><div class="progress-bar" style="width: 80%;"></div><span>已抢80%</span></div>
+                </li>
+                <li>
+                    <p>微信3区-战争风云</p>
+                    <div class="progress"><div class="progress-bar" style="width: 30%;"></div><span>已抢30%</span></div>
+                </li>
+                <li>
+                    <p>微信4区-英雄归来</p>
+                    <div class="progress"><div class="progress-bar" style="width: 10%;"></div><span>已抢10%</span></div>
+                </li>
+                <li>
+                    <p>微信5区-风暴行动</p>
+                    <div class="progress"><div class="progress-bar" style="width: 10%;"></div><span>已抢10%</span></div>
+                </li>
+                <li>
+                    <p>微信6区-火线指令</p>
+                    <div class="progress"><div class="progress-bar" style="width: 60%;"></div><span>已抢60%</span></div>
+                </li>
+                <li>
+                    <p>微信7区-钢铁雄狮</p>
+                    <div class="progress"><div class="progress-bar" style="width: 80%;"></div><span>已抢80%</span></div>
+                </li>
+                <li>
+                    <p>微信8区-硝烟初起</p>
+                    <div class="progress"><div class="progress-bar" style="width: 80%;"></div><span>已抢80%</span></div>
+                </li>
+                <li>
+                    <p>微信9区-战火前线</p>
+                    <div class="progress"><div class="progress-bar" style="width: 30%;"></div><span>已抢30%</span></div>
+                </li>
+                <li>
+                    <p>微信10区-末日风暴</p>
+                    <div class="progress"><div class="progress-bar" style="width: 80%;"></div><span>已抢80%</span></div>
+                </li>
+            </ol>
+            <ol class="skr">
+                <li>
+                    <p>手Q1区-冰天雪地</p>
+                    <div class="progress"><div class="progress-bar" style="width: 80%;"></div><span>已抢80%</span></div>
+                </li>
+                <li>
+                    <p>手Q2区-闪电风暴</p>
+                    <div class="progress"><div class="progress-bar" style="width: 80%;"></div><span>已抢80%</span></div>
+                </li>
+                <li>
+                    <p>手Q3区-纵横驰骋</p>
+                    <div class="progress"><div class="progress-bar" style="width: 30%;"></div><span>已抢30%</span></div>
+                </li>
+                <li>
+                    <p>手Q4区-风驰电掣</p>
+                    <div class="progress"><div class="progress-bar" style="width: 10%;"></div><span>已抢10%</span></div>
+                </li>
+                <li>
+                    <p>手Q5区-枪林弹雨</p>
+                    <div class="progress"><div class="progress-bar" style="width: 10%;"></div><span>已抢10%</span></div>
+                </li>
+                <li>
+                    <p>手Q6区-钢铁咆哮</p>
+                    <div class="progress"><div class="progress-bar" style="width: 60%;"></div><span>已抢60%</span></div>
+                </li>
+                <li>
+                    <p>手Q7区-战争使命</p>
+                    <div class="progress"><div class="progress-bar" style="width: 80%;"></div><span>已抢80%</span></div>
+                </li>
+                <li>
+                    <p>手Q8区-决胜千里</p>
+                    <div class="progress"><div class="progress-bar" style="width: 80%;"></div><span>已抢80%</span></div>
+                </li>
+                <li>
+                    <p>手Q9区-黎明曙光</p>
+                    <div class="progress"><div class="progress-bar" style="width: 30%;"></div><span>已抢30%</span></div>
+                </li>
+                <li>
+                    <p>手Q10区-风暴行动</p>
+                    <div class="progress"><div class="progress-bar" style="width: 30%;"></div><span>已抢30%</span></div>
+                </li>
+            </ol>
+        </div>
+    </div>
+    <h3 class="t-3 spr">战场补给</h3>
+    <div class="part-3">
+        <div class="lottery" id="lotterycontent">
+            <p>剩余<i>2</i>次抽奖机会</p>
+            <img src="//game.gtimg.cn/images/hongjing/cp/a20180803qzjsm/lottery.png"  alt="转盘">
+        </div>
+    </div>
+    <a ontouchend="PTTSendClick('part-3','yqhy','邀请好友');" class="spr yqhy" href="javascript:qrcode('qrcode-pop-fx');">邀请好友</a>
+    <p class="yqq">您已邀请 <em>XX</em> 位好友</p>
+    <h3 class="t-4 spr">活动规则</h3>
+    <div class="part-4">
+        <ol>
+            <li class="clear"><span class="spr fl">1</span><p class="fl">活动时间：2018年8月15日-8月25日</p></li>
+            <li class="clear"><span class="spr fl">2</span><p  class="fl">活动期间内，《红警OL手游》将开放20组服务器，每个服务器限量名额，先到先得哦；</p></li>
+            <li class="clear"><span class="spr fl">3</span><p  class="fl">活动期间内，每个QQ/微信账号仅可抢注一次，角色抢注成功后无法再修改服务器和角色名，请谨慎选择！</p></li>
+            <li class="clear"><span class="spr fl">4</span><p  class="fl">抢注过角色的账号，在不删档测试时登录可自动读取抢注角色，无需再次注册；</p></li>
+            <li class="clear"><span class="spr fl">5</span><p  class="fl">活动期间内，每邀请一位好友参与抢注，可以获得一次抽奖机会，本活动所有奖励将在不删档测试后开放兑换。</p></li>
+        </ol>
+    </div>
+</section>
+<section class="qrcode">
+    <div class="qrcode-box">
+        <a ontouchend="PTTSendClick('qrcode','wx','微信公众号');" class="qrcode-wx wxqr" href="javascript:qrcode('qrcode-pop-wx');"><span class="sprs"></span>微信公众号</a>
+        <a ontouchend="PTTSendClick('qrcode','yxq','微信游戏圈');" class="qrcode-yxq wxqr" href="javascript:qrcode('qrcode-pop-yxq');"><span class="sprs"></span>微信游戏圈</a>
+        <a ontouchend="PTTSendClick('qrcode','bl','兴趣部落');" class="qrcode-bl qqqr" href="javascript:qrcode('qrcode-pop-bl');"><span class="sprs"></span>兴趣部落</a>
+        <a ontouchend="PTTSendClick('qrcode','dj','企鹅电竞');" class="qrcode-dj qqqr" href="javascript:qrcode('qrcode-pop-dj');"><span class="sprs"></span>企鹅电竞</a>
+    </div>
+</section>
+<section class="footicon">
+    <a class="footicon-tx" ontouchend="PTTSendClick('footicon','tx','腾讯互动娱乐');" title="腾讯互动娱乐" href="javascript:;">腾讯互动娱乐</a>
+    <a class="footicon-ea" ontouchend="PTTSendClick('footicon','ea','EA');" title="EA" href="javascript:;">EA</a>
+    <a class="footicon-ya" ontouchend="PTTSendClick('footicon','ya','有爱互动移动游戏');" title="有爱互动移动游戏" href="javascript:;">有爱互动移动游戏</a>
+</section>
+<!-- 微信二维码 -->
+<div class="qrcode-pop qrcode-pop-wx">
+    <img src="//game.gtimg.cn/images/hongjing/cp/a20180502yym/qrcode-wx.png" />
+</div>
+<!-- 微信游戏圈 -->
+<div class="qrcode-pop qrcode-pop-yxq">
+    <img src="//game.gtimg.cn/images/hongjing/cp/a20180502yym/qrcode-yxq.png" />
+</div>
+<!-- 兴趣部落 -->
+<div class="qrcode-pop qrcode-pop-bl">
+    <img src="//game.gtimg.cn/images/hongjing/cp/a20180502yym/qrcode-bl.png" />
+</div>
+<!-- 企鹅电竞 -->
+<div class="qrcode-pop qrcode-pop-dj">
+    <img src="//game.gtimg.cn/images/hongjing/cp/a20180502yym/qrcode-dj.png" />
+</div>
+<!--分享弹窗-->
+<div class="qrcode-pop qrcode-pop-fx">
+    <img src="//game.gtimg.cn/images/hongjing/cp/a20180803qzjsm/share.png" />
+</div>
+<!--弹窗-->
+<section class="fix-dimg"></section>
+<section class="pop po-1">
+    <div class="center">
+        <a ontouchend="PTTSendClick('po-1','wx','微信');" class="wx spr" href="javascript:;">微信</a>
+        <a ontouchend="PTTSendClick('po-1','QQ','qq');" class="qq spr" href="javascript:;">QQ</a>
+    </div>
+    <p>指挥官，请登录！</p>
+    <a ontouchend="PTTSendClick('pop','close','关闭');" class="close" href="javascript:showHid();">关闭</a>
+</section>
+<section class="pop po-2">
+    <h4>抢注失败</h4>
+    <p>亲爱的指挥官，<br>我们检测到您由于尚未预约而未具备抢注角色资格，需预约后方可参与本次活动。</p>
+    <a ontouchend="PTTSendClick('po-2','ljyy','立即预约');" class="ljyy spr" href="javascript:;">立即预约</a>
+    <a ontouchend="PTTSendClick('pop','close','关闭');" class="close" href="javascript:showHid();">关闭</a>
+</section>
+<section class="pop po-3">
+    <h4>抢注成功</h4>
+    <p>恭喜指挥官预约成功，您的邀请码是<br><em>123451123451</em></p>
+    <div class="invite">
+        <label>战友邀请码：</label><input type="text" placeholder="非必填">
+    </div>
+    <div class="phone">
+        <label>手机号:</label><input type="text" placeholder="非必填">
+    </div>
+    <a ontouchend="PTTSendClick('po-3','ljqz','立即抢注');" class="liqz spr" href="javascript:;">立即抢注</a>
+    <a ontouchend="PTTSendClick('pop','close','关闭');" class="close" href="javascript:showHid();">关闭</a>
+</section>
+<section class="pop po-4">
+    <h4>区服角色确认</h4>
+    <span class="dq">QQ 8服 区服名字（iOS）</span>
+    <span class="mz">我的红警昵称超厉害</span>
+    <p>*请认真确认抢注信息，一旦确认无法修改，活动<br>期间内，每个QQ/微信账号仅可抢注一次</p>
+    <div class="center">
+        <a ontouchend="PTTSendClick('po-4','zxx','再想想');" class="spr zxx" href="javascript:;">再想想</a>
+        <a ontouchend="PTTSendClick('po-4','qr','确认');" class="spr qr" href="javascript:;">确  认</a>
+    </div>
+    <a ontouchend="PTTSendClick('pop','close','关闭');" class="close" href="javascript:showHid();">关闭</a>
+</section>
+<section class="pop po-5">
+    <h4>恭喜获得补给</h4>
+    <div class="jp">
+        <img src="//game.gtimg.cn/images/hongjing/cp/a20180803qzjsm/mines.png" alt="">
+        <span>50000矿石*1</span>
+    </div>
+    <p>奖励将在不删档测试开启后，在游戏内或官网领取。</p>
+    <a ontouchend="PTTSendClick('po-5','qr','立即抢注');" class="ljqz spr" href="javascript:showHid();">确认</a>
+    <a ontouchend="PTTSendClick('pop','close','关闭');" class="close" href="javascript:showHid();">关闭</a>
+</section>
+<section class="pop po-6">
+    <h4>补给记录</h4>
+    <div class="active">
+        <ul class="gift">
+            <li class="clear"><strong class="fl">50000矿石*1</strong><p class="fr"><span>2018-07-19</span><time>23:32:22</time></p></li>
+            <li class="clear"><strong class="fl">50000矿石*1</strong><p class="fr"><span>2018-07-19</span><time>23:32:22</time></p></li>
+            <li class="clear"><strong class="fl">50000矿石*1</strong><p class="fr"><span>2018-07-19</span><time>23:32:22</time></p></li>
+            <li class="clear"><strong class="fl">50000矿石*1</strong><p class="fr"><span>2018-07-19</span><time>23:32:22</time></p></li>
+            <li class="clear"><strong class="fl">50000矿石*1</strong><p class="fr"><span>2018-07-19</span><time>23:32:22</time></p></li>
+            <li class="clear"><strong class="fl">50000矿石*1</strong><p class="fr"><span>2018-07-19</span><time>23:32:22</time></p></li>
+            <li class="clear"><strong class="fl">50000矿石*1</strong><p class="fr"><span>2018-07-19</span><time>23:32:22</time></p></li>
+            <li class="clear"><strong class="fl">50000矿石*1</strong><p class="fr"><span>2018-07-19</span><time>23:32:22</time></p></li>
+            <li class="clear"><strong class="fl">50000矿石*1</strong><p class="fr"><span>2018-07-19</span><time>23:32:22</time></p></li>
+            <li class="clear"><strong class="fl">50000矿石*1</strong><p class="fr"><span>2018-07-19</span><time>23:32:22</time></p></li>
+        </ul>
+    </div>
+    <a ontouchend="PTTSendClick('pop','close','关闭');" class="close" href="javascript:showHid();">关闭</a>
+</section>
+<section class="pop po-7">
+    <h4>您的抽奖机会已用完</h4>
+    <p>PS：您可以通过每日首次分享以及成功邀请战<br>友参与抢注角色活动来获取更多的抽奖机会</p>
+    <a ontouchend="PTTSendClick('po-7','yqzy','邀请战友');" class="yqzy spr" href="javascript:;">邀请战友</a>
+    <a ontouchend="PTTSendClick('pop','close','关闭');" class="close" href="javascript:showHid();">关闭</a>
+</section>
+<script src="//ossweb-img.qq.com/images/js/zepto/zepto.modules.min.js"></script>
+<script src="//game.gtimg.cn/images/js/2018foot/foot.js"></script>
+<script src="//ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js"></script>
+<script src="//ossweb-img.qq.com/images/js/TGMobileShare/TGMobileShare.min.js"></script>
+<script src="//game.gtimg.cn/images/js/delottery/lottery.js"></script>
+<script src="/cp/a20180803qzjsm/js/lottery.js"></script>
+<!--<script src="js/lottery.js"></script>-->
+<script>
+    // 此段代码不能放到外链JS中，
+    var setSite={ //设置网站属性
+        siteType:"a20180803qzjsm", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+        pageType:"index", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN
+        pageName:"抢注角色-快人一步", //必填项:页面中文名
+        project:"other",//选填项:如果是官网模块则是必填;按照模块内容，填写固定的对应值;原生官网base;微社区ingame;同人站doujin;赛事match;故事站story;文化站history;粉丝站fans;爆料站coming;论坛bbs;
+        osact:1, //选填项:是否是官网专题(在官网运营的专题)boolean；默认是0；可以在链接上加入参数osact=1来灵活设置
+        ingame:0, //选填项:是否投放在游戏APP内boolean；默认是0；可以在链接上加入参数ingame=1来灵活设置
+        stayTime:1 //选填项:是否需要统计停留时长boolean；默认是0
+    }
+    if(typeof(pgvMain)=='function')pgvMain();//千万不能忘记！
+
+    TGMobileShare({
+        shareTitle:'抢注角色，快人一步 - 红警OL手游', //不设置或设置为空时，页面有title，则调取title
+        shareDesc:'40万名额限量抢码，抢注有礼赢战场先机！', //不设置或设置为空时，页面有Description，则调取Description
+        shareImgUrl:'https://game.gtimg.cn/images/hongjing/cp/a20180502yym/icon.png', //分享图片尺寸200*200，且填写绝对路径
+        shareLink:location.href, //分享链接要跟当前页面同域名(手Q分享有这个要求) ,不设置或设置为空时，默认调取当前URL
+        actName:'a20180803qzjsm' //点击流命名，用于统计分享量，专题一般采用目录名称如a20151029demo
+    });
+    //    弹窗
+    function showDia(val) {
+        $(".fix-dimg").show();
+        $(val).show();
+    }
+    function showHid() {
+        $(".fix-dimg").hide();
+        $('.pop').hide();
+    }
+//    各区切换
+    $(".server li").on("click",function () {
+        var index = $(this).index();
+        $(".server li").removeClass("on");
+        $(this).addClass("on");
+        $(".server-wrap .skr").removeClass("on");
+        $(".server-wrap .skr").eq(index).addClass("on")
+    })
+    //开始抽奖lottery->js
+    function callJsToStart(){
+        calllotteryToRoll(6);
+    }
+    //开发获得抽奖结果 通知lottery开始播放效果 js->lottery
+    function calllotteryToRoll(id){
+        if(lottery)lottery.stopRoll(id);
+    }
+    //动画完成通知js  lottery->js
+    function callJsToComplete(){
+        PTTSendClick('btn','choujiang','抽奖');
+//        alert('恭喜你获得大奖哟！！');
+        showDia('.po-5');
+    }
+
+    //初始化抽奖的 可以不知道内部
+    var lottery= new Lottery({
+        'lighturl':'http://ossweb-img.qq.com/images/js/delottery/light.png',
+        'starturl':'http://ossweb-img.qq.com/images/js/delottery/blankstartbtn.png',
+        'total':8,
+        'width':603,
+        'height':489,
+        'sbtnx':208,// 开始抽奖按钮的位置x坐标
+        'sbtny':169,// 开始抽奖按钮的位置y坐标
+        'sbtnw':187,// 开始抽奖按钮的宽度
+        'sbtnh':152,// 开始抽奖按钮的高度
+        'boxw':187,
+        'boxh':158,
+        'position':"0_0,210_0,415_0,415_165,415_334,210_334,0_334,0_165",
+        'contentId' : 'lotterycontent',
+        'onClickRollEvent' : callJsToStart,
+        'onCompleteRollEvent':callJsToComplete
+    });
+    // 底部二维码
+    function qrcode(val) {
+        $('.'+val).show();
+    }
+    $('.qrcode-pop').on('click',function(){
+        $(this).hide();
+    })
+    //判断是否是微信浏览器
+    function isWeiXin(){if(/MicroMessenger/ig.test(navigator.userAgent)){return true;}else{return false;}}
+    function isQQ(){if((!/MQQBrowser/ig.test(navigator.userAgent))&&(/QQ/ig.test(navigator.userAgent))&&(/Mobile/ig.test(navigator.userAgent))){return true;}else{return false;}}
+    var wx = document.querySelectorAll('.qrcode-box .wxqr')
+    var qq =document.querySelectorAll(".qrcode-box .qqqr");
+    if(isWeiXin()){for(var i=0;i<qq.length;i++){qq[i].style.display='none';}}
+    if(isQQ()){for(var i=0;i<wx.length;i++){wx[i].style.display='none';}}
+</script>
+</body>
+</html>
